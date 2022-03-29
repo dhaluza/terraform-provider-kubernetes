@@ -1342,11 +1342,10 @@ func testAccKubernetesServiceConfig_ipFamilies(prefix string) string {
       target_port = 80
     }
 
-	ip_families = [
-	  "IPv4",
-	]
-
-	ip_family_policy = "SingleStack"
+    ip_families = [
+      "IPv4",
+    ]
+    ip_family_policy = "SingleStack"
   }
 }
 `, prefix)
