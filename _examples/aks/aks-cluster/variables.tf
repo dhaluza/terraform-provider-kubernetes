@@ -3,7 +3,7 @@ variable "kubernetes_version" {
 }
 
 variable "workers_count" {
-  default = "3"
+  default = "1"
 }
 
 variable "cluster_name" {
@@ -11,5 +11,5 @@ variable "cluster_name" {
 }
 
 variable "location" {
-  type = string
+  type = "eastus2"
 }
