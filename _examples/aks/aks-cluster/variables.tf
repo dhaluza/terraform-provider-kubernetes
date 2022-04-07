@@ -11,5 +11,5 @@ variable "cluster_name" {
 }
 
 variable "location" {
-  type = "eastus2"
+  type = string
 }
