@@ -1,6 +1,6 @@
 variable "location" {
   type    = string
-  default = "westus2"
+  default = "eastus2"
 }
 
 resource "random_id" "cluster_name" {
